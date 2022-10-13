@@ -1,0 +1,106 @@
+header {
+    text-align: center;
+    background-color: bisque;
+    padding: 15px;
+}
+
+nav {
+    float: left;
+    padding: 10px;
+    background-color: gray;
+    height: 400px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#body1 {
+    background-color: lightgray;
+}
+
+#body2 {
+    background-color: lightgoldenrodyellow;
+}
+
+#body3 {
+    background-color: peachpuff;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+article {
+    
+    padding: 10px;
+}
+
+table, th, td {
+    border: 2px;
+    border-style: double;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+#item1 {
+    background-color: lightblue;
+}
+
+#item2 {
+    background-color: lightgreen;
+}
+
+#item3 {
+    background-color: blue;
+}
+#item4 {
+    background-color: dodgerblue;
+}
+
+#item5 {
+    background-color: hotpink;
+}
+
+#item6 {
+    background-color: red;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.flex-container > div {
+    background-color: azure;
+    padding: 30px;
+    margin: 10px;
+}
